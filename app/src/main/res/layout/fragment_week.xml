@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".WeekFragment"
+    android:background="@drawable/gradient_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        >
+
+        <CheckedTextView
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:id="@+id/everyMondayId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/every_monday"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+
+
+            />
+        <CheckedTextView
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:id="@+id/everyTuesdayId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/every_tuesday"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            />
+        <CheckedTextView
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:id="@+id/everyWednesdayId"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/every_wednesday"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            />
+        <CheckedTextView
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:id="@+id/everyThursdayId"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/every_thursday"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            />
+        <CheckedTextView
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:id="@+id/everyFridayId"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Every Friday"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            tools:ignore="HardcodedText" />
+        <CheckedTextView
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:id="@+id/everySaturdayId"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/every_saturday"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            />
+        <CheckedTextView
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:id="@+id/everySundayId"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/every_sunday"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/submitWeekId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/submit"
+            android:background="@drawable/round_button"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

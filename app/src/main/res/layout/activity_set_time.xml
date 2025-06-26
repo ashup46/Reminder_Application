@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetTime"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="NEW TASK"
+        android:id="@+id/actionToolbarNewTaskId"
+        app:titleMarginStart="60dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="25sp"
+        android:text="What is to be done?"/>
+    <EditText
+        android:id="@+id/taskTodoId"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Task"/>
+
+    <TextView
+        android:id="@+id/timeEdtId"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:hint="Set Time"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/timePickerId"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="set time"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/WeakEdtId"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:hint="Set Week"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/weekPickerId"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Set Week"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="60dp"
+        android:id="@+id/submitId"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Submit"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

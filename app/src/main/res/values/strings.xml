@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TodoReminder</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="every_monday">Every Monday</string>
+    <string name="every_saturday">Every Saturday</string>
+    <string name="every_sunday">Every Sunday</string>
+    <string name="every_thursday">Every Thursday</string>
+    <string name="every_tuesday">Every Tuesday</string>
+    <string name="every_wednesday">Every Wednesday</string>
+    <string name="submit">Submit</string>
+</resources>
